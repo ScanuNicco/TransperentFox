@@ -1,7 +1,7 @@
 # TransperentFox
-A transparent firefox skin for Windows.
+A transparent firefox skin. This skin has only been tested on Windows, but it may also work on Linux and Mac OS. I hope to test this on Linux in the future.
 
-#Screenshots
+# Screenshots
 ![Transparent Tab Bar](https://media.discordapp.net/attachments/768603942199230545/775884307494600734/unknown.png?width=1056&height=657)
 ![Transparent Protections Menu](https://media.discordapp.net/attachments/768603942199230545/775884378500890714/unknown.png)
 ![Transparent Main Menu](https://cdn.discordapp.com/attachments/768603942199230545/775884433419927572/unknown.png)
