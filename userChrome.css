@@ -13,22 +13,13 @@
 	background-color: rgba(0, 0, 0, .5);
 }
 
-box {
-	background: rgba(0, 0, 0, 0);
-	border: none;
-}
-
 /* Transparent Stuff */
- #TabsToolbar, #titlebar, #navigator-toolbox, #urlbar-input-container, #urlbar-background {
+ #TabsToolbar, #titlebar, #navigator-toolbox, #urlbar-input-container, #urlbar-background, box, .theme-body {
 	-moz-appearance: none !important;
 	background-color: rgba(0, 0, 0, 0) !important;
 	background-image: none !important;
 	border: none;
 	outline: none;
-}
-
-.theme-body {
-	background: transparent !important;
 }
 
 /* Light Transparent Stuff */
@@ -37,18 +28,17 @@ box {
 	background-color: rgba(255, 255, 255, .2) !important;
 	background-image: none !important;
 }
-.tab-background{
-	display:none;
-}
 
-.tab-loading-burst {
-	display: none;
+/* Hidden Stuff */
+.tab-background, .tab-loading-burst{
+	display:none;
 }
 
 #navigator-toolbox, toolbaritem {
 	border: none !important;
 }
 
+/* Search and URL Bars */
 #urlbar, #searchbar{
 	background-color: rgba(255, 255, 255, .5) !important;
    	border-radius: 2em !important;
@@ -74,6 +64,7 @@ box {
     fill: black !important;
 }
 
+/* Search Bar Dropdown */
 #PopupSearchAutoComplete {
     background: rgba(255, 255, 255, .6) !important;
     color: black;
@@ -102,11 +93,6 @@ box {
   padding-inline-end: 4px !important; /* you need to adjust ?px */
 }
 
-#personal-bookmarks menupopup {
-    -moz-appearance: none !important;
-    background-color: pink;
-}
-
 menu,
 menuitem,
 menucaption {
@@ -115,41 +101,19 @@ menucaption {
 	border-radius: 5px;
 }
 
-panelview {
+panelview, .popup-notification-panel {
 	background: rgba(0, 0, 0, .6) !important;
 	backdrop-filter: blur(15px) !important;
 	border-radius: 5px;
 	overflow: hidden;
 }
 
-.panel-arrowcontent {
+.panel-arrowcontent, .panel-arrowcontainer, .panel-viewcontainer, .panel-viewstack, 
+.panel-no-padding, #protections-popup-multiView {
 	background: transparent !important;
 }
 
-.panel-arrowcontainer {
-	background: transparent !important;
-}
-
-.panel-viewcontainer {
-	background: transparent !important;
-}
-
-.panel-viewstack {
-	background: transparent !important;
-}
-
-.panel-no-padding {
-	background: transparent !important;
-}
-
-#protections-popup-multiView {
-	background: transparent !important;
-}
-
-#protections-popup-mainView {
-	/* background: pink !important; */
-} 
-
+/* Drop-down and right-click menus*/
 #contentAreaContextMenu, menupopup {
 	color: #eee !important;
 	border: none !important;
@@ -170,10 +134,7 @@ menuseparator {
 	display: none;
 }
 
-arrowscrollbox {
-	background: transparent !important;
-}
-scrollbox {
+arrowscrollbox, scrollbox {
 	background: transparent !important;
 }
 
@@ -181,16 +142,19 @@ menu, menuitem {
 	padding: 5px;
 }
 
+/* The Items in the menu */
 menu[_moz-menuactive="true"], menuitem[_moz-menuactive="true"] {
 	background: rgba(255, 255, 255, .2) !important;
 	border-radius: 0px;
 }
 
+/* The Items in the menu when hovered */
 menu[disabled="true"], menuitem[disabled="true"], menu[_moz-menuactive="true"][disabled="true"], menuitem[_moz-menuactive="true"][disabled="true"] {
     color: #999 !important; /* Disabled Context Menu Color*/
     text-shadow: none;
 }
 
+/* The sub-menus in the right click menu */
 menupopup {
     margin-inline-start: 0px !important;
     margin-top: 0px !important;
