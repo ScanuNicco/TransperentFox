@@ -1,0 +1,12 @@
+body {
+    background: rgba(25, 25, 25, .5) !important;
+}
+
+#spacesToolbar {
+    background: transparent !important;
+    border-inline-end: none !important;
+}
+
+#navigation-toolbox {
+    background: transparent !important;
+}

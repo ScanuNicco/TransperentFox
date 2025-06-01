@@ -1,0 +1,39 @@
+/* The main window background */
+#main-window {
+	-moz-appearance: /*-moz-mac-vibrancy-dark*/ none !important; /* -moz-win-glass */
+	background-color: rgba(25, 25, 25, .5) !important;
+	background-image: none !important;
+	/*background: url(background.jpg);*/
+}
+
+#navigator-toolbox {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+/* Transparent Stuff */
+ #TabsToolbar, #titlebar, #navigator-toolbox, box, .theme-body {
+	-moz-appearance: none !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	background-image: none !important;
+	border: none;
+	outline: none;
+}
+
+/* Light Transparent Stuff */
+.tab-content, #tabs-newtab-button {
+	-moz-appearance: none !important;
+	color: #eee !important;
+	background-image: none !important;
+	fill: #eee !important;
+}
+
+.tab-content[selected="true"]{
+	color: var(--lwt-tab-text) !important;
+}
+
+/* Nuke all borders and outlines, they look bad */
+* {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
