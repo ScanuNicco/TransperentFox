@@ -1,5 +1,5 @@
 # TransperentFox
-A transparent skin for Firefox and Thunderbird. This skin is intended to be used on Linux systems, with a compositor configured to blur the background. To achieve this on KDE Plasma, I use the following: https://github.com/taj-ny/kwin-effects-forceblur
+A transparent skin for Firefox and Thunderbird. This skin is intended to be used on Linux systems, with a compositor configured to blur the background. To achieve this on KDE Plasma, I use the following: [https://github.com/xarblu/kwin-effects-better-blur-dx](https://github.com/xarblu/kwin-effects-better-blur-dx)
 
 # Screenshots
 ![image](https://github.com/user-attachments/assets/c25c8df1-2d51-4256-93b1-077f76fb45d3)
